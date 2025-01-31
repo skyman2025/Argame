@@ -1,0 +1,53 @@
+<!-- =-------------------------------HEADER MENU---------------------- -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a class="anclaLogo" href="/">
+                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                                <span>HitGames</span>
+                         </a>
+                    </div>
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <% if (user) { %>
+                                <h1 id="autenticado" >Bienvenido  ,<%= user.firstName %>    </h1>
+                            <% } else { %>
+                                <h1 id="invitado">Bienvenido Invitado</h1>
+                            <% } %>
+
+                            <li><a href="/register">Registrarse</a></li>
+                            <li><a href="/login">Iniciar Sesión</a></li>
+                        </ul>
+
+
+                        <div class="hm-icon-cart">
+                            <a href="/carrito">
+                                <i class="las la-shopping-cart"></i>
+                                <span>0</span>
+                            </a>
+                        </div>
+
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i>cargar</button>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+
+<!-- -------------------------------HEADER MENU Movil--------------------------- -->
+        <div class="header-menu-movil">
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+                        <ul>
+                            <li><a href="/register">Registrarse</a></li>
+                            <li><a href="/login">Iniciar Sesión</a></li>
+                        </ul>
+        </div>
+

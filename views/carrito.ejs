@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <%- include('./partials/head'); %>
+
+    <title>HitGames | Detalle</title>
+
+</head>
+
+<body>
+    
+    <header class="header">
+<!-- -----------------------HEADER MENU------------------------ -->
+          <%- include('./partials/header'); %> 
+
+    </header>
+<!--  --------------------------------------------------------------- -->
+  <div class="container">
+    <h1>Carrito de Compras</h1>
+    <div id="items-container">
+      <!-- Aquí se agregarán los elementos del carrito -->
+    </div>
+    <div id="total">Total: $0</div>
+    <button id="checkout-btn">Pagar</button>
+  </div>
+
+<!-- -----------------------   FOOTER  --------------------i- -->
+        <footer>
+              <%- include('./partials/footer'); %>
+        </footer>
+<!-- -----------------------   FOOTER  -------------------f-- -->
+
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Mi Script -->
+    <script src="javascripts/app.js"></script>
+   
+    <script>
+    AOS.init();
+    </script>
+
+</body>
+</html>

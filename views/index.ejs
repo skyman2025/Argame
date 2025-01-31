@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <%- include('./partials/head'); %>
+     
+     <title>HitGames</title>
+</head>
+
+<!-- -------------------------------------------------- -->
+<body>
+
+    <div class="hm-wrapper">
+
+<!-- =-------------------------------HEADER MENU---------------------- -->
+
+    <%- include('./partials/header'); %> 
+
+
+<!-- =----------------------------BANNER--------------------------------------- -->
+        <div class="hm-banner">
+            <div class="img-banner">
+                <img src="images/fondo3.jpg" alt="">
+            </div>
+            <a href=""></a>
+        </div>
+
+<!-- ==------------------------HOME Categorias-------------------------== -->
+        <div class="hm-page-block">
+            <div class="container">
+                <div class="header-title">
+                    <h1  data-aos="fade-up" data-aos-duration="3000">Categorías</h1>
+                </div>
+
+                <div class="hm-grid-category">
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="#">
+                            <img src="images/G-Logos/logoplay.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Play Station</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="#">
+                            <img src="images/G-Logos/logonintendo.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Consola Nintendo</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="#">
+                            <img src="images/G-Logos/logobox3.jpeg" alt="">
+                            <div class="c-info">
+                                <h3>Consola Xbox</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="#">
+                            <img src="images/G-Logos/porta2.jpg" alt="">
+                            <div class="c-info">
+                                <h3>Accesorios</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+<!-- =---------------------HOME PRODUCTOS DESTACADOS-----------------------= -->
+        <div class="hm-page-block bg-fondo">
+
+            <div class="container">
+
+                <div class="header-title" data-aos="fade-up">
+                    <h1>Disponibles</h1>
+                </div>
+
+                <!-- TABS -->
+                <ul class="hm-tabs" data-aos="fade-up">
+                    <li class="hm-tab-link">
+                        Play Station
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Nintendo
+                    </li>
+
+                    <li class="hm-tab-link ">
+                        Xbox
+                    </li>
+
+                    <li class="hm-tab-link ative">
+                        Accesorios
+                    </li>
+
+                </ul>
+
+                <!-- CONTENIDO DE LOS TABS -->
+
+
+
+<!-- --------------------- play Station------------ -->
+                <div class="tabs-content" data-aos="fade-up">
+
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/1">
+                                    <img src="images/G-Play/1.jpg" alt="Call of Duty-Ghost" class="img-item">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="" class="titulo-item"> <h3>Call of duty-Ghost</h3></a>
+                                <div class="precio">
+                                    <span class="precio-item">$ 11001.00</span>
+                                </div>
+                                <button onclick="guardarEnServidor({ nombre: 'Producto', cantidad: 1, precio: 10 })" href="./agregar?name=CAllofDuty&price=11001" class="
+                                hm-btn btn-primary uppercase"> AGREGAR A CARRITO </button>
+
+                                <a href="/carrito?name=CAllofDuty&price=11001" class="
+                                hm-btn btn-primary uppercase">COMPRAR</a>
+ 
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/2">
+                                    <img src="images/G-Play/2.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Assasin Creed III </h3></a>
+                                <div class="precio">
+                                    <span>$ 11002.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/3">
+                                    <img src="images/G-Play/3.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>God of War.</h3></a>
+                                <div class="precio">
+                                    <span>$ 11003.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/4">
+                                    <img src="images/G-Play/4.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Horizont Zero Dawn</h3></a>
+                                <div class="precio">
+                                    <span>$ 11004.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                         <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/5">
+                                    <img src="images/G-Play/5.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Last of Us</h3></a>
+                                <div class="precio">
+                                    <span>$ 11005.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+                        
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/6">
+                                    <img src="images/G-Play/6.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Resident Evil IV </h3></a>
+                                <div class="precio">
+                                    <span>$ 11006.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/7">
+                                    <img src="images/G-Play/7.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Batlefield V</h3></a>
+                                <div class="precio">
+                                    <span>$ 11007.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/8">
+                                    <img src="images/G-Play/8.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Mortal Kombat 11</h3></a>
+                                <div class="precio">
+                                    <span>$ 11008.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+<!-- -------------------------Nintendo----------------- -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/9">
+                                    <img src="images/G-Nint/1.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Mario y Sonic en los Juegos Olimpicos</h3></a>
+                                <div class="precio">
+                                    <span>$ 11001.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/10">
+                                    <img src="images/G-Nint/2.jpg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Octophat Traveler</h3></a>
+                                <div class="precio">
+                                    <span>$ 11002.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/11">
+                                    <img src="images/G-Nint/3.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Doom</h3></a>
+                                <div class="precio">
+                                    <span>$ 11003.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/12">
+                                    <img src="images/G-Nint/4.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Overcooked! 2</h3></a>
+                                <div class="precio">
+                                    <span>$ 11004.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/13">
+                                    <img src="images/G-Nint/5.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Super Mario RPG</h3></a>
+                                <div class="precio">
+                                    <span>$ 11005.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/14">
+                                    <img src="images/G-Nint/6.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Star Wars Knight</h3></a>
+                                <div class="precio">
+                                    <span>$ 11006.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/15">
+                                    <img src="images/G-Nint/7.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle/8"> <h3>Pokken Tournament</h3></a>
+                                <div class="precio">
+                                    <span>$ 11007.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/16">
+                                    <img src="images/G-Nint/8.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Xenoblade Chronicles</h3></a>
+                                <div class="precio">
+                                    <span>$ 11008.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+<!-- --------------------------Xbox---------------------------- -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/17">
+                                    <img src="images/G-Xbox/1.jpeg" alt="">
+                                </a>
+                                <span class="stin stin-new">Nuevo</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Call Of Duty</h3></a>
+                                <div class="precio">
+                                    <span>$ 11001.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/18">
+                                    <img src="images/G-Xbox/2.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Dear Redemption II</h3></a>
+                                <div class="precio">
+                                    <span>$ 11002.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/19">
+                                    <img src="images/G-Xbox/3.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Forza Horizon 5 </h3></a>
+                                <div class="precio">
+                                    <span>$ 11003.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalles/20">
+                                    <img src="images/G-Xbox/4.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>GEARS</h3></a>
+                                <div class="precio">
+                                    <span>$ 11004.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/21">
+                                    <img src="images/G-Xbox/5.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Grand Theft Auto V</h3></a>
+                                <div class="precio">
+                                    <span>$ 11005.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/22">
+                                    <img src="images/G-Xbox/6.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>HALO</h3></a>
+                                <div class="precio">
+                                    <span>$ 11006.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/23">
+                                    <img src="images/G-Xbox/7.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Overwacht</h3></a>
+                                <div class="precio">
+                                    <span>$ 11007.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                         <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/24">
+                                    <img src="images/G-Xbox/8.jpeg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Warframe</h3></a>
+                                <div class="precio">
+                                    <span>$ 11008.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+<!-- -----------------------------------Accesorios----------------- -->
+                <div class="tabs-content" data-aos="fade-up">
+
+                    <div class="grid-product">
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/25">
+                                    <img src="images/G-Acces/1.jpg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Auriculares</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11001.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/26">
+                                    <img src="images/G-Acces/2.jpg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Auriculares 2</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11002.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/27">
+                                    <img src="images/G-Acces/3.png" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> Jostick</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+
+                                    <span class="thash">$ 11003.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/28">
+                                    <img src="images/G-Acces/4.jpg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Mesa</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11005.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/29">
+                                    <img src="images/G-Acces/5.jpg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href="/detalle"> <h3>Mesa Gamers 2</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11005.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/30">
+                                    <img src="images/G-Acces/6.jpeg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Silla Gamer</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11006.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/31">
+                                    <img src="images/G-Acces/7.jpeg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Volante</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11007.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="p-portada">
+                                <a href="/detalle/32">
+                                    <img src="images/G-Acces/8.jpg" alt="">
+                                </a>
+                                <span class="stin stin-oferta">Oferta</span>
+                            </div>
+
+                            <div class="p-info">
+                               <a href=""> <h3>Volante con Pedalera</h3></a>
+                                <div class="precio">
+                                    <span>$ 11000.00</span>
+                                    <span class="thash">$ 11008.00</span>
+                                </div>
+                                <a href="/carrito" class="hm-btn btn-primary uppercase">AGREGAR AL CARRITO</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+   
+
+<!-- ----------------------------FOOTER--------------------------- -->
+        <footer>
+              <%- include('./partials/footer'); %>
+        </footer>
+<!-- ----------------------------FOOTER--------------------------- -->
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+         <!-- Mi Script -->
+    <script src="javascripts/app.js"></script>   
+
+
+    <script>
+    
+        AOS.init({
+            duration: 1200,
+        })
+
+
+    </script>
+
+</body>
+</html>

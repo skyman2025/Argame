@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+          <%- include('./partials/head'); %>
+        
+        <title>HitGames | Detalle</title>            
+
+</head>
+
+<body>
+ 
+<!-- -----------------------HEADER MENU--------------------------- -->
+   
+      <%- include('./partials/header'); %>
+
+<!--------------------------------------------------- -->
+    
+    <div id="contenedor">
+        <div id="contenedorcentrado">
+            <h1>Detalles del Producto</h1>
+            <% if (elemento) { %>
+                <p>ID: <%= elemento.id %></p>
+                <p>Nombre: <%= elemento.name %></p>
+                <p>Descripción: <%= elemento.description %></p>
+                <p>Precio: <%= elemento.price %></p>
+            <% } else { %>
+                <p>No se encontró ningún Producto con el ID proporcionado.</p>
+            <% } %>
+       </div>
+    </div>
+
+<!-- -----------------------   FOOTER  --------------------i- -->
+        <footer>
+              <%- include('./partials/footer'); %>
+        </footer>
+<!-- -----------------------   FOOTER  -------------------f-- -->
+
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="javascripts/app.js"></script>
+
+    <script>  
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+
+  </body>
+</html>

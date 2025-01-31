@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "firstName": "admin",
+    "lastName": "admin",
+    "email": "badmin@gmail.com",
+    "password": "admin123",
+    "category": "Admin",
+    "avatar": "/images/avatars/polloCorazon.jpg"
+  },
+  {
+    "id": "_iigwqfc8i",
+    "password": "2213rgrg",
+    "firstName": "juanpi",
+    "lastName": "peña",
+    "email": "legasy23dream@gmail.com",
+    "category": "Admin",
+    "avatar": "public/images/users/824a8971a985911a91150c3aeaa614f8"
+  },
+  {
+    "id": "_m64fc5882",
+    "password": "$2b$10$2Nd4VFCQX8k7m1L.2WuHd.K00iHwmAzbPhj5.XDvojlPYFDQ/JvkO",
+    "firstName": "arturo",
+    "lastName": "Camelot",
+    "email": "admin@gmail.com",
+    "avatar": "public/images/users/6de5f829a97f22ac2a78a86e4e3816c9"
+  },
+  {
+    "id": "_95sowcsk4",
+    "password": "$2b$10$BTC/cuPZNZsEHm1WSelhM.KUSYyciNVVaNI7hUu9ncQoi2bDMW/7m",
+    "firstName": "Otto",
+    "lastName": "Melara",
+    "email": "user21@gmail.com",
+    "avatar": "public/images/users/64b93af04b99c53fec5797728aa25c4d"
+  }
+]

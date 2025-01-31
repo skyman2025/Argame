@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "name": "volutpat",
+    "description": "hac habitasse platea dictumst maecenas ut massa quis augue luctus",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "nintendo",
+    "price": 52092.33
+  },
+  {
+    "id": 2,
+    "name": "venenatis non",
+    "description": "ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien",
+    "image": "/images/avatars/polloCorazon.jpg",
+    "category": "nintendo",
+    "price": 71249.8
+  },
+  {
+    "id": 3,
+    "name": "sem sed",
+    "description": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "xbox",
+    "price": 28035.74
+  },
+  {
+    "id": 4,
+    "name": "massa",
+    "description": "quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "accesories",
+    "price": 17601.57
+  },
+  {
+    "id": 5,
+    "name": "congue",
+    "description": "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "xbox",
+    "price": 36578.18
+  },
+  {
+    "id": 6,
+    "name": "diam neque",
+    "description": "ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh",
+    "image": "/images/avatars/pletzale.jpg",
+    "category": "nintendo",
+    "price": 31617.91
+  },
+  {
+    "id": 7,
+    "name": "posuere metus",
+    "description": "lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "xbox",
+    "price": 15463.35
+  },
+  {
+    "id": 8,
+    "name": "vitae",
+    "description": "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "xbox",
+    "price": 79606.05
+  },
+  {
+    "id": 9,
+    "name": "varius ut",
+    "description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+    "image": "/images/avatars/polloCorazon.jpg",
+    "category": "play station",
+    "price": 22230.48
+  },
+  {
+    "id": 10,
+    "name": "nulla",
+    "description": "sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "accesories",
+    "price": 12860.5
+  },
+  {
+    "id": 11,
+    "name": "metus",
+    "description": "sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet",
+    "image": "",
+    "category": "accesories",
+    "price": 14694.55
+  },
+  {
+    "id": 12,
+    "name": "semper est",
+    "description": "ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie",
+    "image": "/images/avatars/jala.jpg",
+    "category": "accesories",
+    "price": 29963.8
+  },
+  {
+    "id": 13,
+    "name": "dictumst morbi",
+    "description": "eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "accesories",
+    "price": 75598.91
+  },
+  {
+    "id": 14,
+    "name": "magnis",
+    "description": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "xbox",
+    "price": 65477.99
+  },
+  {
+    "id": 15,
+    "name": "ante vivamus",
+    "description": "vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue",
+    "image": "/images/avatars/tostada.jpg",
+    "category": "play station",
+    "price": 8754.82
+  },
+  {
+    "id": 16,
+    "name": "felis fusce",
+    "description": "nunc rhoncus dui vel sem sed sagittis nam congue risus",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "play station",
+    "price": 35054.21
+  },
+  {
+    "id": 17,
+    "name": "eget elit",
+    "description": "amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "xbox",
+    "price": 16964.61
+  },
+  {
+    "id": 18,
+    "name": "iaculis",
+    "description": "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "play station",
+    "price": 19191.02
+  },
+  {
+    "id": 19,
+    "name": "lobortis sapien",
+    "description": "vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat",
+    "image": "/images/avatars/jala.jpg",
+    "category": "play station",
+    "price": 46404.99
+  },
+  {
+    "id": 20,
+    "name": "sit",
+    "description": "duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse",
+    "image": "/images/avatars/tostada.jpg",
+    "category": "accesories",
+    "price": 72179.86
+  },
+  {
+    "id": 21,
+    "name": "rhoncus aliquam",
+    "description": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo",
+    "image": "",
+    "category": "accesories",
+    "price": 20776.74
+  },
+  {
+    "id": 22,
+    "name": "vestibulum",
+    "description": "molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "accesories",
+    "price": 20483.09
+  },
+  {
+    "id": 23,
+    "name": "amet sapien",
+    "description": "donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue",
+    "image": "/images/avatars/pletzale.jpg",
+    "category": "xbox",
+    "price": 49684.52
+  },
+  {
+    "id": 24,
+    "name": "quisque",
+    "description": "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac",
+    "image": "/images/avatars/tostada.jpg",
+    "category": "nintendo",
+    "price": 65807.11
+  },
+  {
+    "id": 25,
+    "name": "eget",
+    "description": "eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem",
+    "image": "/images/avatars/tostada.jpg",
+    "category": "accesories",
+    "price": 14351.08
+  },
+  {
+    "id": 26,
+    "name": "mauris eget",
+    "description": "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at",
+    "image": "/images/avatars/pletzale.jpg",
+    "category": "play station",
+    "price": 63293.79
+  },
+  {
+    "id": 27,
+    "name": "quisque",
+    "description": "nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus",
+    "image": "",
+    "category": "accesories",
+    "price": 65136.22
+  },
+  {
+    "id": 28,
+    "name": "neque aenean",
+    "description": "mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla",
+    "image": "/images/avatars/pretzel.jpg",
+    "category": "accesories",
+    "price": 44350.98
+  },
+  {
+    "id": 29,
+    "name": "ipsum primis",
+    "description": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "nintendo",
+    "price": 14844.45
+  },
+  {
+    "id": 30,
+    "name": "in consequat",
+    "description": "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac",
+    "image": "/images/avatars/tostada.jpg",
+    "category": "accesories",
+    "price": 20477.68
+  },
+  {
+    "id": 31,
+    "name": "id",
+    "description": "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis",
+    "image": "/images/avatars/pletzale.jpg",
+    "category": "xbox",
+    "price": 28654.37
+  },
+  {
+    "id": 32,
+    "name": "ante",
+    "description": "quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu",
+    "image": "/images/avatars/kipa.jpg",
+    "category": "xbox",
+    "price": 62051.26
+  }
+]

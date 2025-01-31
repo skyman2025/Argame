@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <%- include('./partials/head'); %>
+    <title>Admin | HitGames</title>
+        
+</head>
+
+<body>
+
+   <div class="hm-wrapper">
+
+<!-- =-------------------------------HEADER MENU---------------------- -->
+
+    <%- include('./partials/header'); %> 
+    
+<!-- /*-------------------seccion formularios admin-----------------------*/ -->
+        <div id="contenedor"> 
+            
+            <div id="contenedorcentrado">
+
+                <a href="/listado" class="hm-btn btn-primary uppercase">Ver listado de productos</a>
+
+                <!-- Formulario para crear un nuevo elemento -->
+                          <h2>Admin  crear productos</h2>
+                <form action="/crear" method="post">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="descripcion" placeholder="Descripción" required>
+                    <input type="text" name="category" placeholder="Categoria" required>
+                    <input type="text" name="price" placeholder="Precio" required>
+                    <button type="submit" >Crear</button>
+                </form>
+            </div>
+        </div>    
+        <div id="contenedor">
+             <div id="contenedorcentrado">    
+
+                <a href="/listado" class="hm-btn btn-primary uppercase">Ver listado de productos</a>
+                           <h2>Admin  Actualizar productos</h2>
+                <!-- Formulario para actualizar un elemento existente -->
+                <form action="/actualizar" method="post">
+                    <input type="hidden" name="_method" value="PUT">
+                    <input type="text" name="id" placeholder="ID del elemento a actualizar" required>
+                    <input type="text" name="nuevoNombre" placeholder="Nuevo nombre">
+                    <input type="text" name="nuevaDescripcion" placeholder="Nueva descripción">
+                    <button type="submit" >Actualizar</button>
+                </form>
+             </div>
+        </div>   
+
+        <div id ="contenedor">
+             <div id="contenedorcentrado">    
+
+                <a href="/listado" class="hm-btn btn-primary uppercase">Ver listado de productos</a>
+                           <h2>Admin  eliminar productos</h2>
+                <!-- Formulario para eliminar un elemento existente -->
+                <form action="/eliminar" method="post">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <input type="text" name="id" placeholder="ID del elemento a eliminar" required>
+                    <button type="submit" >Eliminar</button>
+                </form>
+            </div>
+        </div>
+
+
+<!-- ----------------------------FOOTER--------------------------- -->
+        <footer>
+              <%- include('./partials/footer'); %>
+        </footer>
+<!-- ----------------------------FOOTER--------------------------- -->
+ 
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="javascripts/app.js"></script>
+
+    <script>
+    
+        AOS.init({
+            duration: 1200,
+        })
+
+
+    </script>
+  </div>
+</body>
+</html>
